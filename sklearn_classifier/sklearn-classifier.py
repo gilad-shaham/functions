@@ -25,7 +25,6 @@ from mlrun.mlutils.data import get_sample, get_splits
 from mlrun.mlutils.models import gen_sklearn_model, eval_model_v2
 from mlrun.utils.helpers import create_class
 
-
 def train_model(
     context: MLClientCtx,
     model_pkg_class: str,
